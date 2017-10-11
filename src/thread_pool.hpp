@@ -33,7 +33,7 @@ namespace thread_pool
 
 		void stop();
 		void join_all();
-				
+
 	private:
 		void work();
 		std::vector<std::thread> threads;
